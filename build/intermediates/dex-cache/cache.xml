@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\pre-dexed\debug\classes-d89bb308c52bada6536f68ef3a541f732b7b5d90.jar" />
+    </item>
+    <item
+        jar="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\pre-dexed\debug\classes-be44b1669fdd3847e990f51fbe1ccb11953a2f09.jar" />
+    </item>
+    <item
+        jar="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
+        <dex dex="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\pre-dexed\debug\classes-1f6d68dc12fb7dccb74c08195bc984bee868fd28.jar" />
+    </item>
+    <item
+        jar="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-36b32a16dce7f8ba1feeec0cfa599482862a853e.jar" />
+    </item>
+    <item
+        jar="C:\Users\chris\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-1006443150fad707eeda2fd32228c7e7d21c40e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\pre-dexed\debug\classes-76ea70eace97c22f299d3b10b7eb7b36987d7cb7.jar" />
+    </item>
+    <item
+        jar="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
+        <dex dex="C:\Users\chris\AndroidStudioProjects\FunFacts\app\build\intermediates\pre-dexed\debug\classes-ab87ecf8b8e9bfcc568acd755ed673a0c7289d6a.jar" />
+    </item>
+
+</items>

@@ -1,62 +1,63 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ff51b46d"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".FunFactsActivity"
-    android:background="#ff51b46d"
-    android:id="@+id/mainLayout">
-
-    <TextView android:text="Did you know this crap?"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textSize="24sp"
-        android:textColor="#80ffffff" />
+    tools:context=".FunFactsActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/initialFact"
+        android:text="Did you know this crap?"
+        android:textColor="#80ffffff"
+        android:textSize="24sp" />
+
+    <TextView
         android:id="@+id/factTextView"
-        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="24sp"
-        android:textColor="@android:color/white" />
+        android:layout_centerVertical="true"
+        android:text="@string/initialFact"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
 
     <Button
+        android:id="@+id/showFactButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press me now"
-        android:id="@+id/showFactButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/white"
+        android:text="Press me now"
         android:textColor="#ff51b46d"
         android:textSize="24sp" />
 
     <Button
+        android:id="@+id/button"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/showFactButton"
-        android:layout_alignStart="@+id/showFactButton" />
+        android:layout_alignStart="@+id/showFactButton"
+        android:layout_below="@+id/textView"
+        android:text="New Button" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="New Text"
         android:id="@+id/batCap"
-        android:textSize="20sp"
-        android:layout_below="@+id/button"
-        android:layout_toRightOf="@+id/showFactButton"
-        android:layout_toEndOf="@+id/showFactButton" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/factTextView"
+        android:text="New Text"
+        android:textSize="20sp" />
 
 </RelativeLayout>
